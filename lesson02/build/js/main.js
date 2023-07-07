@@ -4,6 +4,7 @@ const initApp = () => {
     const toggleMenu = () => {
         mobileMenu.classList.toggle('hidden')
         mobileMenu.classList.toggle('flex')
+        hamBtn.classList.toggle('toggle-btn')
     }
     hamBtn.addEventListener('click', toggleMenu)
     mobileMenu.addEventListener('click',toggleMenu)
